@@ -14,34 +14,40 @@ A production-style full-stack dashboard for restaurant administrators to manage 
 
 ```text
 dish-management-dashboard/
-├── backend/
-│   ├── app/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   ├── websocket/
-│   │   ├── database.py
-│   │   ├── main.py
-│   │   ├── models.py
-│   │   └── schemas.py
-│   ├── seed.py
-│   ├── requirements.txt
-│   └── README.md
-│
-├── frontend/
-│   ├── public/
-│   │   └── images/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── utils/
-│   ├── package.json
-│   └── vite.config.js
-│
-├── .gitignore
-└── README.md
+|-- backend/
+|   |-- app/
+|   |   |-- routes/
+|   |   |-- services/
+|   |   |-- websocket/
+|   |   |-- database.py
+|   |   |-- main.py
+|   |   |-- models.py
+|   |   `-- schemas.py
+|   |-- seed.py
+|   |-- requirements.txt
+|   `-- README.md
+|
+|-- frontend/
+|   |-- public/
+|   |   `-- images/
+|   |-- src/
+|   |   |-- api/
+|   |   |-- components/
+|   |   |-- hooks/
+|   |   |-- pages/
+|   |   |-- services/
+|   |   `-- utils/
+|   |-- package.json
+|   `-- vite.config.js
+|
+|-- screenshots/
+|   |-- dashboard.png
+|   |-- published.png
+|   |-- unpublished.png
+|   `-- realtime-sync.png
+|
+|-- .gitignore
+`-- README.md
 ```
 
 ## Backend Setup
@@ -100,6 +106,24 @@ Initial stats:
 - Total dishes: 6
 - Published: 4
 - Unpublished: 2
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Published Dish
+
+![Published](screenshots/published.png)
+
+### Unpublished Dish
+
+![Unpublished](screenshots/unpublished.png)
+
+### Real-Time Synchronization
+
+![Realtime](screenshots/realtime-sync.png)
 
 ## Notes
 
